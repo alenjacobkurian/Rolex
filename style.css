@@ -1,0 +1,211 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background: linear-gradient(90deg, #0b3e27, #197149);
+    height: 110px;
+}
+.navbar h3{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+.navbar i{
+    color: white;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+.lt{
+    display: flex;
+    width: 40%;
+    padding-left: 95px;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+.mid{
+    width: 10%;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+.mid img{
+    /* Rolex logo */
+    width: 60px;
+    height: 45px;
+    display: block;
+    margin: auto;
+}
+.rt{
+    margin-left: 0;
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+.rticons{
+    text-decoration: none;
+    color: white;
+    display: flex;
+}
+.navbar a{
+    color: white;
+    transition: color 3s;
+}
+.navbar a:hover{
+    color: #27bf7a;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+    margin-top: 50px;
+}
+#head1{
+    font-family: Gruppo;
+    font-weight: 600;
+    font-size: 26px;
+    margin-bottom: 0;
+}
+#head2{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 80px;
+    color: rgb(34, 34, 34);
+    margin-top: 0;
+}
+.navbar2{
+    display: block;
+    margin: auto;
+    height: 80px;
+    background-color: white;
+    padding-top: 30px;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+.navoptions{
+    width: 50%;
+    display: flex;   
+    justify-content: space-evenly;
+}
+.navoptions a{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.navoptions a:hover{
+    color: #197149;
+}
+.home{
+    width: 87%;
+    display: block;
+    margin: auto;
+    z-index: 2;
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    z-index: 2;
+}
+.card1{
+    display: flex;
+    width: 32%;
+    background-color:rgb(247, 247, 247);
+    height: 280px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    position: relative;
+}
+.card1 img{
+    margin-left: 0px;
+    width: 200px;
+    height: 290px;
+}
+.card1 img:hover{
+    width: 210px;
+    height: 300px;
+    cursor: pointer;
+    transition: .4s ease-in;
+}
+.love{
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+.fa-heart{
+    color: #138652;
+}
+.boxinside{
+    width: 200px;
+    margin-left: 30px;
+    margin-top: 80px;
+    box-sizing: border-box;
+}
+.boxinside a{
+    text-decoration: none;
+}
+.boxinside h2{
+    font-family: sans-serif;
+    color: rgb(21, 21, 21);
+    font-size: 19px;
+}
+.boxinside p{
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+    color: rgb(72, 71, 71);
+    line-height: 20px;
+}
+.filter{
+    position: fixed;
+    z-index: 3;
+    top: 650px;
+    left: 45.5%;
+    /* bottom: 350px; */
+}
+.filter button{
+    background-color: #138652;
+    height: 40px;
+    width: 140px;
+    border-radius: 20px;
+    color: white;
+    border: 0;
+}
+.fa-sliders{
+    margin-right: 2px;
+}
+.footer{
+    height: 350px;
+    background-image: url(images/footer.jpg);
+    width: 100%;
+    bottom: 0;
+    z-index: 0;
+    color: white;
+}
+.footer h1{
+    padding-top: 130px;
+    font-weight: bolder;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+.footer p{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.footer a{
+    font-family: sans-serif;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
